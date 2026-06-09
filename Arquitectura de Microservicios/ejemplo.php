@@ -1,3 +1,5 @@
+<?php
+
 // order-service/src/OrderService.php
 class OrderService {
     public function __construct(private HttpClient $http) {}
@@ -26,3 +28,5 @@ class OrderService {
         return $order;
     }
 }
+
+?>

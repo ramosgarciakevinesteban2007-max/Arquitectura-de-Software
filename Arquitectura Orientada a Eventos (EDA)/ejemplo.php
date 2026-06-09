@@ -1,3 +1,5 @@
+<?php
+
 class EventBus {
     private array $listeners = [];
 
@@ -29,3 +31,5 @@ $bus->publish('order.created', [
     'user_email' => 'user@example.com',
     'total'      => 99.90,
 ]);
+
+?>

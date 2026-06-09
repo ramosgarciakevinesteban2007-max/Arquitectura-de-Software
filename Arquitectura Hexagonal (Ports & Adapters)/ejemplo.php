@@ -1,3 +1,5 @@
+<?php
+
 // Puerto (interfaz del dominio — no depende de nada externo)
 interface UserRepositoryPort {
     public function findById(int $id): ?User;
@@ -36,3 +38,5 @@ class RegisterUserUseCase {
 
 // Producción usa MySQL; tests usan InMemory — mismo use case
 $useCase = new RegisterUserUseCase(new MysqlUserRepository());
+
+?>

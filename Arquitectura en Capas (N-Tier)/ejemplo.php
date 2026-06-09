@@ -1,3 +1,5 @@
+<?php
+
 // Capa de Dominio
 class User {
     public function __construct(
@@ -33,3 +35,5 @@ class UserController {
         return ['id' => $user->id, 'name' => $user->name];
     }
 }
+
+?>

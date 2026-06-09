@@ -1,3 +1,5 @@
+<?php
+
 // index.php — monolito extendido (mismo archivo)
 
 class BlogApp {
@@ -67,3 +69,5 @@ $app->createPost('Mi primer post', 'Contenido del post...');
 
 // Eliminar un post por ID
 $app->deletePost(3);
+
+?>

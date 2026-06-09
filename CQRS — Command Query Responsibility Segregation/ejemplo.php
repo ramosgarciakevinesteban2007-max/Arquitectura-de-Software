@@ -1,3 +1,5 @@
+<?php
+
 // ── COMMAND SIDE ──────────────────────────────────────
 
 class CreateProductCommand {
@@ -34,3 +36,5 @@ class GetProductsHandler {
 // ── USO ───────────────────────────────────────────────
 $bus->dispatch(new CreateProductCommand('Teclado', 49.99));
 $products = $bus->dispatch(new GetProductsQuery(10));
+
+?>

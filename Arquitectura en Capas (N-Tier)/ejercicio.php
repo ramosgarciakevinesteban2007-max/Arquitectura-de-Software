@@ -1,3 +1,5 @@
+<?php
+
 // ── DOMINIO ────────────────────────────────────────────
 // Igual que User: entidad pura, sin dependencias externas
 class Product {
@@ -66,3 +68,5 @@ class ProductController {
 $ctrl = new ProductController();
 $response = $ctrl->store(['name' => 'Teclado mecánico', 'price' => 89.99]);
 // ['id' => 0, 'name' => 'Teclado mecánico', 'price' => 89.99]
+
+?>

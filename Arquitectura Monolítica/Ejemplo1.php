@@ -1,3 +1,5 @@
+<?php
+
 // index.php  — todo en un solo archivo/proyecto
 
 class BlogApp {
@@ -28,3 +30,5 @@ class BlogApp {
 
 $app = new BlogApp();
 $app->render($app->getPublishedPosts());
+
+?>

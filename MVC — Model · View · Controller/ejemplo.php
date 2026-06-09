@@ -1,3 +1,5 @@
+<?php
+
 // Model
 class PostModel {
     public function all(): array {
@@ -30,3 +32,5 @@ class PostController {
 }
 
 echo (new PostController())->index();
+
+?>

@@ -1,3 +1,5 @@
+<?php
+
 // api-gateway/src/ApiGateway.php
 
 class ApiGateway
@@ -72,3 +74,5 @@ class ApiGateway
         }
     }
 }
+
+?>
